@@ -1,44 +1,82 @@
-caches:
-  images:
-    dir: ':cacheDir/images'
-
 baseURL: 'https://wishingcat.github.io/'
 languageCode: 'zh-cn'
-title: '祈愿的猫的博客'
 defaultContentLanguage: 'zh-cn'
+title: '祈愿的猫的博客'
+theme: 'hermit-v2'
 enableRobotsTXT: true
-summaryLength: 28
+hasCJKLanguage: true
+rssLimit: 10
+copyright: '祈愿的猫'
 
-pagination:
-  pagerSize: 6
-
-params:
-  author: 'CalicoCatto'
-  description: '分享A技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
-  email: '470045806@qq.com'
-  github: 'https://github.com/WishingCat'
-  tagline: '分享A技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
-
-menu:
-  main:
-    - name: 首页
-      pageRef: /
-      weight: 10
-    - name: 文章
-      pageRef: /posts
-      weight: 20
-    - name: 关于
-      pageRef: /about
-      weight: 30
+frontmatter:
+  date:
+    - date
+    - publishDate
+    - lastmod
+  lastmod:
+    - lastmod
+    - ':git'
+    - date
+    - publishDate
+  publishDate:
+    - publishDate
+    - date
+  expiryDate:
+    - expiryDate
 
 taxonomies:
   tag: tags
-  category: categories
-
-permalinks:
-  posts: '/posts/:slug/'
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
-    style: github
+    style: github-dark
     lineNos: false
+
+author:
+  name: '祈愿的猫'
+  about: '分享AI技术与生命点滴。'
+
+params:
+  description: '分享AI技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
+  homeSubtitle: '分享AI技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
+  themeColor: '#2c2621'
+  accentColor: '#d59a78'
+  footerCopyright: '祈愿的猫'
+  justifyContent: false
+  relatedPosts: true
+  code_copy_button: true
+  homeSubtitlePrinter: true
+  scrollToTop: true
+  global_mathjax: false
+  readTime: true
+  readTimeSeparator: '分钟阅读'
+  shareSocial: true
+  listLayout:
+    - description
+    - tags
+  gallery:
+    enable: true
+    thumbnail: '300'
+  dateform:
+    CopyrightDate: '2006'
+    LongDate: '2006-01-02'
+    ShortDate: '01-02'
+    NumDateShort: '2006-01-02'
+    NumDateLong: '2006-01-02 15:04 -0700'
+  socialLinks:
+    - name: github
+      url: 'https://github.com/WishingCat'
+    - name: email
+      url: 'mailto:470045806@qq.com'
+
+menu:
+  main:
+    - name: 文章
+      url: /posts/
+      weight: 10
+    - name: 关于
+      url: /about/
+      weight: 20
