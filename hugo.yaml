@@ -1,0 +1,44 @@
+caches:
+  images:
+    dir: ':cacheDir/images'
+
+baseURL: 'https://wishingcat.github.io/'
+languageCode: 'zh-cn'
+title: 'CalicoCatto 的博客'
+defaultContentLanguage: 'zh-cn'
+enableRobotsTXT: true
+summaryLength: 28
+
+pagination:
+  pagerSize: 6
+
+params:
+  author: 'CalicoCatto'
+  description: '记录技术、想法和日常折腾。'
+  email: '470045806@qq.com'
+  github: 'https://github.com/WishingCat'
+  tagline: '用 Hugo 和 GitHub Pages 搭建的个人博客'
+
+menu:
+  main:
+    - name: 首页
+      pageRef: /
+      weight: 10
+    - name: 文章
+      pageRef: /posts
+      weight: 20
+    - name: 关于
+      pageRef: /about
+      weight: 30
+
+taxonomies:
+  tag: tags
+  category: categories
+
+permalinks:
+  posts: '/posts/:slug/'
+
+markup:
+  highlight:
+    style: github
+    lineNos: false

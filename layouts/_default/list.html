@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <section class="section-block">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">ARCHIVE</p>
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+
+    <div class="list-stack">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="card list-card">
+          <div>
+            <p class="meta">{{ .Date.Format "2006-01-02" }}</p>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ with .Description }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary }}</p>
+            {{ end }}
+          {{ with .Params.tags }}
+            <div class="tag-row">
+              {{ range . }}
+                <span class="tag">#{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+          </div>
+          <a class="text-link" href="{{ .RelPermalink }}">阅读全文</a>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

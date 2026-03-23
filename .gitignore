@@ -1,0 +1,8 @@
+public/
+resources/
+.tools/
+.hugo_build.lock
+.DS_Store
+Thumbs.db
+*.tmp
+*.zip
