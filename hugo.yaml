@@ -4,7 +4,7 @@ caches:
 
 baseURL: 'https://wishingcat.github.io/'
 languageCode: 'zh-cn'
-title: 'CalicoCatto 的博客'
+title: '祈愿的猫的博客'
 defaultContentLanguage: 'zh-cn'
 enableRobotsTXT: true
 summaryLength: 28
@@ -14,10 +14,10 @@ pagination:
 
 params:
   author: 'CalicoCatto'
-  description: '记录技术、想法和日常折腾。'
+  description: '分享A技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
   email: '470045806@qq.com'
   github: 'https://github.com/WishingCat'
-  tagline: '用 Hugo 和 GitHub Pages 搭建的个人博客'
+  tagline: '分享A技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
 
 menu:
   main:
