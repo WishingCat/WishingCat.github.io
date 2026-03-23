@@ -1,11 +1,11 @@
 ---
 title: '让 AI 替你跑仿真：用 Agent 实现 Lumerical FDTD仿真全自动设计优化'
 date: 2026-03-23
-draft: true
+draft: false
 slug: 'lumerical-fdtd-agent-automation'
 description: '启语 Agent（智能体）的出现，让大模型可以直接操控电脑。 发展最成熟的Agent就是编程Agent，使用编程Agent的过程一般称作 AI编程 或者 Vibe Coding 。 最近我用这套方法，跑通了 Lumerical FDTD、Ansys HFSS、CST 等多款仿真软'
 tags: ['AI']
-lastmod: 2026-03-23T05:44:00.000Z
+lastmod: 2026-03-23T06:23:00.000Z
 notion_page_id: '32c8eabb-0ab3-801b-bc68-f8021a47c77c'
 ---
 ## 启语
