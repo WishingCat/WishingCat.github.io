@@ -80,3 +80,6 @@ menu:
     - name: 关于
       url: /about/
       weight: 20
+    - name: 赞助
+      url: /support/
+      weight: 30

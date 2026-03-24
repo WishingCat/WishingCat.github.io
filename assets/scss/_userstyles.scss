@@ -1,0 +1,35 @@
+.content .support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.content .support-card,
+.content .support-contact {
+  padding: 1.25rem;
+  border: 1px solid rgba(213, 154, 120, 0.25);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  text-align: center;
+}
+
+.content .support-card img,
+.content .support-contact img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto 0.8rem;
+  border-radius: 10px;
+}
+
+.content .support-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.content .support-contact {
+  max-width: 360px;
+  margin: 1.5rem auto 0;
+}
