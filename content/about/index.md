@@ -7,7 +7,7 @@ description: Zengji Tu — profile
 
 Undergrad student, Beijing Medical University
 
-Joined May 2026
+Joined September 2024
 
 ## Names
 
