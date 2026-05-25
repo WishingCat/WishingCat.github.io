@@ -1,14 +1,36 @@
 ---
-title: 关于
-description: 关于这个博客和我自己
+title: About
+description: Zengji Tu — profile
 ---
 
-祈愿的猫
+# Zengji Tu
 
-华中科技大学电信学院本科生
+Undergrad student, Beijing Medical University
 
-北京大学电子学院博士生
+Joined May 2026
 
-分享A技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。
+## Names
 
-如果你想交流，欢迎发邮件到 [470045806@qq.com](mailto:470045806@qq.com)。
+Zengji Tu (Preferred)
+
+## Emails
+
+tuzengji@stu.pku.edu.cn (Confirmed) (Preferred)
+
+## Personal Links
+
+Homepage
+
+## Career & Education History
+
+**Undergrad student**
+Beijing Medical University (bjmu.edu.cn)
+2024 – 2028
+
+## Advisors, Relations & Conflicts
+
+No relations added
+
+## Expertise
+
+No areas of expertise listed

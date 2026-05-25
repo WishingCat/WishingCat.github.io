@@ -1,12 +1,12 @@
 baseURL: 'https://wishingcat.github.io/'
-languageCode: 'zh-cn'
-defaultContentLanguage: 'zh-cn'
-title: '祈愿的猫的博客'
+languageCode: 'en-us'
+defaultContentLanguage: 'en'
+title: 'Zengji Tu'
 theme: 'hermit-v2'
 enableRobotsTXT: true
-hasCJKLanguage: true
+hasCJKLanguage: false
 rssLimit: 10
-copyright: '祈愿的猫'
+copyright: 'Zengji Tu'
 
 frontmatter:
   date:
@@ -36,23 +36,23 @@ markup:
     lineNos: false
 
 author:
-  name: '祈愿的猫'
-  about: '分享AI技术与生命点滴。'
+  name: 'Zengji Tu'
+  about: 'Undergrad student, Beijing Medical University.'
 
 params:
-  description: '分享AI技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
-  homeSubtitle: '分享AI技术与生命点滴。希望能在这里，记录我自己，写下清澈如水的文字，连结起人与人之间的纽带，引发你与我的共鸣。'
+  description: 'Undergrad student at Beijing Medical University.'
+  homeSubtitle: 'Undergrad student, Beijing Medical University.'
   themeColor: '#2c2621'
   accentColor: '#d59a78'
-  footerCopyright: '祈愿的猫'
+  footerCopyright: 'Zengji Tu'
   justifyContent: false
-  relatedPosts: true
+  relatedPosts: false
   code_copy_button: true
   homeSubtitlePrinter: true
   scrollToTop: true
   global_mathjax: false
   readTime: true
-  readTimeSeparator: '分钟阅读'
+  readTimeSeparator: 'min read'
   shareSocial: true
   listLayout:
     - description
@@ -67,19 +67,11 @@ params:
     NumDateShort: '2006-01-02'
     NumDateLong: '2006-01-02 15:04 -0700'
   socialLinks:
-    - name: github
-      url: 'https://github.com/WishingCat'
     - name: email
-      url: 'mailto:470045806@qq.com'
+      url: 'mailto:tuzengji@stu.pku.edu.cn'
 
 menu:
   main:
-    - name: 文章
-      url: /posts/
-      weight: 10
-    - name: 关于
+    - name: About
       url: /about/
-      weight: 20
-    - name: 赞助
-      url: /support/
-      weight: 30
+      weight: 10
